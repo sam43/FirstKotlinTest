@@ -1,0 +1,3 @@
+interface callback {
+    fun abbd()
+}

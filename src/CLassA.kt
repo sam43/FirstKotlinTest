@@ -1,6 +1,8 @@
 
 
 open class CLassA : ClassB(), callback {
+    var name: String = "Sam43"
+
     override fun abbd() {
         println("Interface calling...")
     }

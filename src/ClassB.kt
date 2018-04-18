@@ -19,4 +19,5 @@ abstract class ClassB {
     fun concat(n1: String, n2:String) {
         println(n1 + n2)
     }
+
 }

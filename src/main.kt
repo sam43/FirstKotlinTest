@@ -8,18 +8,23 @@ fun main(args: Array<String>) {
     var c = 0
     var c1 = 0
     val nums: IntArray = intArrayOf(10, 20, 30, 40, 50)
-    println(nums)
+/*
+    for (element in nums)
+    println(element)
 
     val list = arrayListOf(1, 2, 3)
     println(list) // [1, 2, 3]
 
     list += listOf(4, 5)
     println(list) // [1, 2, 3, 4, 5]
+*/
 
     val objA = CLassA()
-    val objB = CLassA()
-    val objC = CLassA()
-    objA.sample()
+    val objIn = SysIN()
+
+    /*val objB = CLassA()
+    val objC = CLassA()*/
+    /*objA.sample()
     objA.abc()
     objA.abcd()
     objA.abbd()
@@ -27,10 +32,10 @@ fun main(args: Array<String>) {
     objA.abc(10, "Tests")
     objA.add(5, "10")
     objA.add("5", "15")
-    objA.concat("Saadat ", "Sayem")
+    objA.concat("Saadat ", "Sayem")*/
 
 
-    val listof = arrayListOf(objA, objB, objC)
+    /*val listof = arrayListOf(objA, objB, objC)
     println(listof) // [1, 2, 3]
     for (i in 0 until listof.size)
         println(listof[i].name)
@@ -39,11 +44,11 @@ fun main(args: Array<String>) {
     println("for each..")
 
     for (element in listof)
-        println(element.name)
+        println(element.name)*/
 
     println(10.ext_double())
 
-    for (i in 0..25) {
+    /*for (i in 0..25) {
 
         if (x > 30) {
             y = 4
@@ -57,9 +62,9 @@ fun main(args: Array<String>) {
             z = x + y
             //println("x = $x!$z count = $c1\n")
         }
-    }
+    }*/
 
-    when (wk) {
+/*    when (wk) {
         Weeks.Friday -> println("x = Friday")
         Weeks.Saturday -> println("x = Saturday")
         Weeks.Sunday -> println("x = Sunday")
@@ -72,9 +77,15 @@ fun main(args: Array<String>) {
             println("x is neither of any week")
             println("x = Thursday")
         }
-    }
+    }*/
     
-    println(Weeks.Friday)
+    //println(Weeks.Friday)
+
+    //objIn.InOne()
+    //objIn.InTwo()
+    //objIn.InThree()
+    //objIn.readInts()
+    objIn.InArrray()
 
     println("Hello World!$z count = $c @ $c1\n")
 }
